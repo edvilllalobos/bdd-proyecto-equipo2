@@ -1,0 +1,55 @@
+body {
+    background-color: #264673;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    background-color: #ED8824;
+    padding: 5px;
+}
+
+form {
+    background-color: white;
+    margin: 20px auto 30px;
+    width: 400px;
+}
+
+input [type="submit"] {
+    border: 0;
+    background-color: #ED8824;
+    padding: 10px 20px;
+}
+
+input [type="dato"]{
+    background-color: #CFEEF0;
+    margin-left: 30px;
+}
+
+.error {
+    background-color: #FF9185;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.correcto {
+    background-color: #A0DEA7;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.volver {
+    background-color: cyan;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0 auto 20px;
+    border: 2px;
+    width: 420px;
+    padding: 20px;
+}

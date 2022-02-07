@@ -1,0 +1,10 @@
+#principal{
+	display: inline-block;
+	width: auto;
+	margin: 10px 0;
+	padding: 8px;
+	border: 1px solid black ;
+}
+#principal tr{
+	height: 50px;
+}

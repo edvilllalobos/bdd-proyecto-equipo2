@@ -1,0 +1,45 @@
+body {
+    background-color: #264673;
+    box-sizing: borderbox;
+    font-family: arial;
+}
+
+.menu_vertical{
+    margin: 0 auto 50px;
+    width: 250px;
+    background: black;
+}
+
+.menu_vertical ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu_vertical ul li a {
+    padding: 5px 10px;
+    background: white;
+    color: white;
+    display: block;
+    margin-bottom: 2px;
+    text-decoration: none;
+    border: 1px solid orange;
+}
+
+.menu_vertical ul li a:hover {
+    background: cyan;
+    border: 1px solid black;
+    background-color: #264660;
+}
+
+.contenedor {
+    border: 1px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.volver {
+    background-color: cyan;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0 auto;
+}

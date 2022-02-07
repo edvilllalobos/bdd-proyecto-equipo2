@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/maquetacion2.css">
+    <link rel="stylesheet" href="css/MaquetacionCC.css">
+    <title>Aseguradora UCAB Continental</title>
+</head>
+<body>
+    <h1>
+        Aseguradora UCAB Continental
+    </h1>
+    <nav style="padding: 10px 1%; margin: 10px 1%; background-color: #ffffff; text-align: center;">
+        <ul>
+         <li><a href="index.html">Inicio</li></a>
+         <li><a href="clientes.html">Clientes</li></a>
+         <li><a href="sobre-nosotros.html">Polizas</li></a>
+         <li><a href="personas.php">Personas</li></a>
+         </ul>
+      </nav>
+    <h2>
+        Formulario de Registro para Clientes
+    </h2>
+    <div id="principal">
+    <form>
+        <table border="0">
+         <tr height="50">
+          <td>
+              Nombre/s
+          </td>
+          <td>
+              <input name="Nombre" type="Text" id="nombre">
+          </td>
+         </tr>
+         <tr height="50">
+            <td>
+                Apellido/s
+            </td>
+            <td>
+                <input name="Apellidos" id="apellidos"  type="Text">
+            </td>
+           </tr>
+           <tr height="50">
+            <td>
+                Fecha de Nacimiento
+            </td>
+            <td>
+                <input name="Fenac" type="Text" id="fenac" placeholder="dd/mm/aaaa">
+            </td>
+           </tr>
+           <tr height="50">
+            <td>
+                Domicilio
+            </td>
+            <td>
+                <input name="Domicilio" type="Text" id="domicilio">
+            </td>
+           </tr>
+           <tr height="50">
+            <td>
+                Código Postal
+            </td>
+            <td>
+                <input name="Cp" type="Text" id="cp"> 
+                &nbsp;&nbsp;
+                Correo electrónico
+                <input type="email" name="Email" id="emails">
+            </td>
+           </tr>
+           <tr height="50">
+            <td>
+                Provincia
+            </td>
+            <td>
+                <input name="cp" type="Text" id="pv"> 
+                &nbsp;&nbsp;
+                Teléfono
+                <input type="text" name="Telefono" id="telefono">
+            </td>
+           </tr>
+           <tr height="50">
+               <td>
+                   Sexo
+               </td>
+               <td>
+                   Hombre <input type="radio" name="Sexo" value="H" id="sexo">
+                   Mujer <input type="radio" name="Sexo" value="M" id="sexo2">
+                   Estado Civil
+                   <select name="Estado_civil" id="estado_civil">
+                       <option>soltero
+                        <option>Casado
+                         <option>Divorciado
+                          <option>otro   
+                   </select>
+               </td>
+           </tr>
+           <tr height="50">
+            <td>
+                Idiomas
+            </td>
+            <td>
+                <input type="checkbox" name="Idiomas" value="E" id="idiomas">Español
+                <input type="checkbox" name="Idiomas" value="F" id="idiomas2">Francés
+                <input type="checkbox" name="Idiomas" value="I" id="idiomas3">Inglés 
+                <input type="checkbox" name="Idiomas" value="A" id="idiomas4">Alemán
+            </td>
+           </tr>
+           <tr height="50">
+             <td>
+                 Comentarios
+                 <br>
+                 Personales
+             </td>
+             <td>
+                 <textarea name="Coment" cols="44" rows="2" id="coment">
+
+                 </textarea>
+             </td>
+           </tr>
+           <tr height="50">
+               <td>
+                   Pulse aquí
+               </td>
+               <td align="center">
+                   <input type="button" value="Enviar" id="enviar" onClick="validarFormulario()">
+                   <input type="reset" value="Borrar datos">
+               </td>
+           </tr>
+        </table>
+    </form>
+    </div>
+    <script text="text/javascript" src="js/script9.js"></script>
+</body>
+</html>
